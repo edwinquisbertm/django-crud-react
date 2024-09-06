@@ -13,7 +13,7 @@ export function TasksList() {
         loadTasks();
     }, []);
 
-  return <div>
+  return <div className='grid grid-cols-3'>
     {tasks.map((task) => ( // recorre el array de tareas y por cada tarea muestra un div con el título y la descripción
             <TaskCard key={task.id} task={task}/>
         ))}
