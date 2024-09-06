@@ -242,3 +242,9 @@ CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:5173"]
 
 - al momento de enviar los datos a la API, recordar que deben tener los mismos campos para evitar errors de envio
 
+# Estilos para el proyecto
+- instalacion de tailwind
+https://tailwindcss.com/docs/guides/vite
+
+- seguimos los pasos de la guia para terminar de configurar el proyecto
+
